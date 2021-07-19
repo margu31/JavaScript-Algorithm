@@ -28,6 +28,13 @@ process.stdin.on("data", (data) => {
     res += "\n";
   }
   console.log(res);
+
+  // 타인의 답안!
+  // 정말 대박이다.. repeat() 써서 3번 반복 깔끔하게!
+  // const row = '*'.repeat(a)
+  // for(let i =0; i < b; i++){
+  //     console.log(row)
+  // }
 });
 
 // *****
